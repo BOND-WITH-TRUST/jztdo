@@ -1,0 +1,51 @@
+<!doctype html>
+<head>
+	<body>
+		<body style="background-color:gray;">
+			<style>
+				h1 {
+					color: white;
+					font-family: verdana;
+					text-shadow: 2px 2px 2px red;
+				}
+				.firstname {
+					color: red;
+				}
+
+				.box {
+					width: 100%;
+					max-width: 540px;
+					margin: auto;
+
+					background-color: white;
+				}
+
+			</style>
+
+			<div class="box">
+				<h1 style="text-align:center;">personal data form</h1>
+				<form>
+					Enter your x
+					<div class="firstname">First name:</div><br>
+					<input type="text" name="firstname"><br>
+					Last name:<br>
+					<input type="text" name="lastname">
+				</form> 
+				<form>
+					<input type="radio" name="gender" value="male" checked> Male<br>
+					<input type="radio" name="gender" value="female"> Female<br>
+					<input type="radio" name="gender" value="other"> Other
+				</form> 
+				<form> <select name="age">
+					<option value="1-18">child</option>
+					<option value="18-60">adult</option>
+					<option value="60-100">old</option>
+				</select> </form>
+				<form>No. of chlid<br>
+					<input type="radio" name="gender" value="maal">1<br>
+					<input type="radio" name="gender" value="maal">2<br>
+					<input type="radio" name="gender" value="maal">3<br>
+					<input type="radio" name="gender" value="maal">4<br>
+					<input type="radio" name="gender" value="maal">5 or more<br>
+				</form> </div>
+				<a href="https://www.imgworlds.com/language/en/contact-us/"><button>click me</button></a>
